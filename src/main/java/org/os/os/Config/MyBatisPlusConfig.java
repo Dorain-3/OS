@@ -1,4 +1,4 @@
-package org.hechao.os.config;
+package org.os.os.Config;
 
 public class MyBatisPlusConfig {
 }

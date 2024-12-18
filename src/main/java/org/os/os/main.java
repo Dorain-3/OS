@@ -1,4 +1,6 @@
-package org.hechao.os;
+package org.os.os;
+
+import org.os.os.util.PrintUtil;
 
 import java.util.Scanner;
 
@@ -13,7 +15,6 @@ public class main {
         while (true) {
             //初始化
             fileSystem.init();
-            System.out.print(">");
 
             String input = scanner.nextLine();
             if ("exit".equals(input)) {

@@ -1,4 +1,4 @@
-package org.hechao.EatFruit;
+package org.os.EatFruit;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

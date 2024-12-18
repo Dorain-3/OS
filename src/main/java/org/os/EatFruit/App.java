@@ -1,9 +1,6 @@
-package org.hechao.EatFruit;
+package org.os.EatFruit;
 
 import lombok.experimental.FieldDefaults;
-import lombok.extern.slf4j.Slf4j;
-
-import java.util.concurrent.Semaphore;
 
 import static lombok.AccessLevel.PRIVATE;
 

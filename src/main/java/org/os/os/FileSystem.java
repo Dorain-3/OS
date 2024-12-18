@@ -1,14 +1,15 @@
-package org.hechao.os;
+package org.os.os;
 
 import lombok.Data;
+import org.os.os.entity.Directory;
+import org.os.os.util.PermissionManager;
+import org.os.os.util.PrintUtil;
 
 /**
  * @author 31749
  */
 @Data
 public class FileSystem {
-
-    private Directory root;
 
     private CommandParser parser;
 
@@ -25,7 +26,8 @@ public class FileSystem {
     }
 
     public void init(){
-
+        System.out.println("(base) home>输入help获取帮助");
+        PrintUtil.print("请登录");
     }
 
 
